@@ -31,6 +31,14 @@
 - [23L_Classification.ipynb](notebooks/23L_Classification.ipynb) - ноутбук лабораторной по задаче классификации;
 > Вам нравятся цветочки? Давайте попробуем разобраться, где какой ирис!
 
+- [31_RandomForest.ipynb](notebooks/31_RandomForest.ipynb) - знакомимся с моделью на основе деревьев;
+- [32L_RandomForest.ipynb](notebooks/32L_RandomForest.ipynb) - решаем, кто выживет на Титанике;
+
+- [41_GradientBoosting.ipynb](notebooks/41_GradientBoosting.ipynb) - стараемся разобраться с тем, как работает градиентный бустинг;
+- [42L_GradientBoosting.ipynb](notebooks/42L_GradientBoosting.ipynb) - еще сильнее исследуем Титаник;
+
+- [51L_NB_Text.ipynb](notebooks/51L_NB_Text.ipynb) - а что делать с текстом в ML;
+
 ## Инструменты
 
 Одним из самых простых способов работы с материалами является использувание сервиса [Google Colab](https://colab.research.google.com/), в котором вы выбираете источник GitHub, вводите URL этой страницы или имя KaiL4eK и далее выбираете нужный ноутбук.
@@ -58,11 +66,13 @@
 ### ML
 
 - Очень крутая статья https://eldf.ru/machine-learning-base-article 
-- Курс от ODS: https://habr.com/ru/company/ods/blog/322626/ 
+- Курс от ODS: https://habr.com/ru/company/ods/blog/322626/ | https://mlcourse.ai/
 - Некоторые полезные книжки: https://yadi.sk/d/uFG719fi1IM6HA?w=1
 - Еще курсы по ML:
     - https://stepik.org/course/4852/syllabus
+    - https://stepik.org/course/401/syllabus (Нейросети)
     - https://www.coursera.org/learn/machine-learning  (Andrew Ng)
+    - https://www.coursera.org/specializations/deep-learning (Andrew Ng)
     - https://yandexdataschool.ru/ (Яндекс ШАД)
 
 - ODS: https://ods.ai/ 
@@ -81,3 +91,11 @@
 - Задача предсказания выживших на Титанике (классификация): https://www.kaggle.com/c/titanic
 - Предсказываем цену дома (регрессия): https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 - Определяем цифру, которая нарисована на картинке (классификация): https://www.kaggle.com/c/digit-recognizer
+- Определяем ядовитые грибы: https://www.kaggle.com/uciml/mushroom-classification
+- Пора уже разобраться, что изображено на картинке - кошка или собака: https://www.kaggle.com/c/dogs-vs-cats
+
+### ML Additional Tools
+
+- Дополнительная визуализация: https://www.scikit-yb.org/en/latest/index.html
+- Фреймворк для простой реализации интерактивного web-представления: https://www.streamlit.io
+- Платформа для работы с ноутбуками: https://colab.research.google.com/
