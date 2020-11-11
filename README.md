@@ -10,6 +10,12 @@
 
 > FAQ - может ответ на вопрос найдется [здесь](FAQ.md)
 
+### Что мне делать с ноутбуками?
+
+Есть два варианта:
+- Вы можете открывать ноутбуки на платформе [Google Colab](https://colab.research.google.com/) и там их выполнять и сохранять у себя в репоитории. Для этого необходимо открыть блокнот, в качестве источника выбрать GitHub и ввести URL этой страницы: https://github.com/KaiL4eK/ml_edu. В результате откроется список с ноутбуками, любой из которых можно открыть!
+- Или можете установить себе на компьютер среду [Anaconda](https://www.anaconda.com/) и после чего включить сервер Jupyter (или Jupyter-lab). После включения по локальному адресу http://localhost:8888 (или http://localhost:8889) будет доступна среда разработка Jupyter. Чтобы открыть ноутбуки курса вам нужно любым доступным способом скачать репозиторий (например с помощью [GitHub Desktop](https://desktop.github.com/)) и далее открыть их через Jupyter. 
+
 ### Базовые практики
 
 - [00_Python.ipynb](notebooks/00_Python.ipynb) - ноутбук практики по самым-самым основам языка Python;
@@ -38,6 +44,11 @@
 - [42L_GradientBoosting.ipynb](notebooks/42L_GradientBoosting.ipynb) - еще сильнее исследуем Титаник;
 
 - [51L_NB_Text.ipynb](notebooks/51L_NB_Text.ipynb) - а что делать с текстом в ML;
+
+- [61_NeuralNetworks.ipynb](notebooks/61_NeuralNetworks.ipynb) - первое знакомство с нейросетями;
+- [62_CNN.ipynb](notebooks/62_CNN.ipynb) - беремся обрабатывать изображения с помощью сверточных нейросетей;
+- [63L_CNN.ipynb](notebooks/63L_CNN.ipynb) - вот и подошли к долгожданным кошечкам и собакам;
+
 
 ## Инструменты
 
@@ -93,9 +104,3 @@
 - Определяем цифру, которая нарисована на картинке (классификация): https://www.kaggle.com/c/digit-recognizer
 - Определяем ядовитые грибы: https://www.kaggle.com/uciml/mushroom-classification
 - Пора уже разобраться, что изображено на картинке - кошка или собака: https://www.kaggle.com/c/dogs-vs-cats
-
-### ML Additional Tools
-
-- Дополнительная визуализация: https://www.scikit-yb.org/en/latest/index.html
-- Фреймворк для простой реализации интерактивного web-представления: https://www.streamlit.io
-- Платформа для работы с ноутбуками: https://colab.research.google.com/
